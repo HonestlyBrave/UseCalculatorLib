@@ -1,15 +1,13 @@
 package control;
 
 import command.*;
-import org.springframework.stereotype.Service;
 
 /**
  * All commands injected and assembled in a set order in one place.
  *
  * @author Muhammad Diallo Thomas - muhammaddiallo.thomas@gmail.com
  */
-@Service("cmdR")
-public class CommandsResource implements Utility {
+public class CommandsResource {
 
     /**
      * Order of commands is crucial for array index references.

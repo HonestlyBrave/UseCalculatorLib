@@ -4,14 +4,12 @@ import command.Command;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
-import org.springframework.stereotype.Service;
 
 /**
  * Listener for all buttons to execute their respective commands.
  *
  * @author Muhammad Diallo Thomas - muhammaddiallo.thomas@gmail.com
  */
-@Service("actionListeners")
 public class ActionListeners implements ActionListener {
 
     /**

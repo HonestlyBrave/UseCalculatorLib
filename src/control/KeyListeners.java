@@ -4,7 +4,6 @@ import command.Command;
 import java.awt.event.KeyEvent;
 import static java.awt.event.KeyEvent.*;
 import java.awt.event.KeyListener;
-import org.springframework.stereotype.Service;
 
 /**
  * Listener for all keyboard keys that appear in the user interface. Note :
@@ -13,7 +12,6 @@ import org.springframework.stereotype.Service;
  *
  * @author Muhammad Diallo Thomas - muhammaddiallo.thomas@gmail.com
  */
-@Service("keyListeners")
 public class KeyListeners implements KeyListener {
 
     /**

@@ -9,14 +9,12 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import org.springframework.stereotype.Service;
 import view.View;
 
 /**
  *
  * @author Muhammad Diallo Thomas - muhammaddiallo.thomas@gmail.com
  */
-@Service("aViewer")
 public class Viewer extends JFrame implements View {
 
     /**
