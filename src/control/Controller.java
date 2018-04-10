@@ -1,6 +1,5 @@
 package control;
 
-import model.Facade;
 import view.View;
 
 /**
@@ -19,7 +18,7 @@ public class Controller {
      */
     public static void main(String[] args) {
 
-        Facade.setView(UI);
+        UI.setCalculatorViewer();
 
         UI.setVisible();
 
