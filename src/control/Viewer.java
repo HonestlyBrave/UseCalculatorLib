@@ -108,7 +108,7 @@ public class Viewer extends JFrame implements View {
         jbSolve.setActionCommand("19");
         jbMemClear = aButton("MC");
         jbMemClear.setActionCommand("20");
-        jbUndo = aButton("Undo");
+        jbUndo = aButton("Test");
         jbUndo.setActionCommand("21");
         jbOpenPara = aButton("(");
         jbOpenPara.setActionCommand("22");

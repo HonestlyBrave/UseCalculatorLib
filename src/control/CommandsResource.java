@@ -22,7 +22,7 @@ public class CommandsResource {
             new CommandAdd(), new CommandClear(), new CommandDecimal(),
             new CommandDivide(), new CommandMemAdd(), new CommandMemSubtract(),
             new CommandMemRecall(), new CommandSubtract(), new CommandMultiply(),
-            new CommandSolve(), new CommandMemClear(), new CommandUndo(),
+            new CommandSolve(), new CommandMemClear(), new CommandCubed(),
             new CommandOpenPara(), new CommandClosePara()};
 
         return commands;
