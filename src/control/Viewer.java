@@ -40,7 +40,7 @@ public class Viewer extends JFrame implements View {
     /**
      * Calculator buttons.
      */
-    private JButton jbOpenPara, jbClosePara, jbUndo;
+    private JButton jbOpenPara, jbClosePara, jbUndo, jbSquared, jbCubed;
 
     /**
      * Calculator display.
@@ -108,12 +108,16 @@ public class Viewer extends JFrame implements View {
         jbSolve.setActionCommand("19");
         jbMemClear = aButton("MC");
         jbMemClear.setActionCommand("20");
-        jbUndo = aButton("Test");
+        jbUndo = aButton("Undo");
         jbUndo.setActionCommand("21");
         jbOpenPara = aButton("(");
         jbOpenPara.setActionCommand("22");
         jbClosePara = aButton(")");
         jbClosePara.setActionCommand("23");
+        jbSquared = aButton("X²");
+        jbSquared.setActionCommand("24");
+        jbCubed = aButton("X³");
+        jbCubed.setActionCommand("25");
 
         jpSecond.add(jb1);
         jpSecond.add(jb2);
@@ -131,18 +135,20 @@ public class Viewer extends JFrame implements View {
         jpSecond.add(jbDecimal);
         jpSecond.add(jbSolve);
         jpSecond.add(jbDivide);
-        jpSecond.add(jbClear);
-        jpSecond.add(jbUndo);
+        jpSecond.add(jbSquared);
+        jpSecond.add(jbCubed);
         jpSecond.add(jbOpenPara);
         jpSecond.add(jbClosePara);
         jpSecond.add(jbMemAdd);
         jpSecond.add(jbMemMinus);
         jpSecond.add(jbMemRecall);
         jpSecond.add(jbMemClear);
+        jpSecond.add(jbClear);
+        jpSecond.add(jbUndo);
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(600, 400));
-        setTitle("Supreme Calculator");
+        setTitle("Simple Calculator");
         setLocationRelativeTo(null);
     }
 
