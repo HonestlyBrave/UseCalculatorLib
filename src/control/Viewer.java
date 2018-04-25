@@ -64,7 +64,7 @@ public class Viewer extends JFrame implements View {
         add(jpMain);
 
         jpFirst = new JPanel(new BorderLayout());
-        jpSecond = new JPanel(new GridLayout(6, 4, 5, 5));
+        jpSecond = new JPanel(new GridLayout(0, 4, 5, 5));
 
         jpMain.add(jpFirst);
         jpMain.add(jpSecond);
@@ -147,7 +147,7 @@ public class Viewer extends JFrame implements View {
         jpSecond.add(jbUndo);
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setMinimumSize(new Dimension(600, 400));
+        setMinimumSize(new Dimension(400, 400));
         setTitle("Simple Calculator");
         setLocationRelativeTo(null);
     }
